@@ -1,0 +1,16 @@
+{
+  "Gemfile": "32463b87afeb13e4ee75b3d2b1f744ba",
+  "README.md": "b5335702ab6b120493cf88faaf9be346",
+  "Rakefile": "b995712132d301b58983732c96de889a",
+  "lib/puppet/provider/sysctl/parsed.rb": "f1ad6c1cd610b6fe33fcd245759c09d1",
+  "lib/puppet/provider/sysctl_runtime/sysctl_runtime.rb": "fd75e9c999cd6c34c7a04d8154bbc166",
+  "lib/puppet/type/sysctl.rb": "e922bf4d4526967e95f6cec7d55f643a",
+  "lib/puppet/type/sysctl_runtime.rb": "0b6f7cc9b83b2ce2fbac6b6c23b063d1",
+  "manifests/base.pp": "6ff4e93ca575e9a5a525b622f33f5ea3",
+  "manifests/value.pp": "4600b4ba68a47e62ad87b2d56dcbcd9e",
+  "manifests/values.pp": "90079d054e73c557c74036faaf52c9b7",
+  "metadata.json": "9abed1fc7e8fea7045e46abc4adfcd56",
+  "spec/classes/sysctl_values_spec.rb": "4f4d1f2d27e18e99ef13cb5cdd81b192",
+  "spec/defines/value_spec.rb": "3c3a09d3c5dbad5cf6f1741955c8b4f2",
+  "spec/spec_helper.rb": "86e4b77c1f52c96afeb2f312fe53d1d9"
+}
