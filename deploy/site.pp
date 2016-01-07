@@ -3,10 +3,10 @@ node default {
     $role = "webserver"
    }
   elsif $::hostname =~ /^lb1/ {
-    $role = loadbalancer_primary
+    $role = "loadbalancer_primary"
   }
   elsif $::hostname =~ /^lb2/ {
-    $role = loadbalancer_backup
+    $role = "loadbalancer_backup"
   }
 
   class{"roles::${role}": }
