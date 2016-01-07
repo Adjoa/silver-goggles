@@ -2,7 +2,6 @@
 # vi: set ft=ruby :
 DOMAIN="example.com"
 SUBNET="10.90.15"
-MEMORY=1028
 
 Vagrant.configure(2) do |config|
   config.vm.define "http1" do |http1|
