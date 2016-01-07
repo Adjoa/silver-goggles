@@ -18,7 +18,7 @@ Vagrant.configure(2) do |config|
     lb1.vm.box = "puphpet/centos65-x64"
     lb1.vm.hostname = "lb1.#{DOMAIN}"
     lb1.vm.network "private_network", ip: "#{SUBNET}.103"
-    lb1.vm.provision :puppet, :options => ["--pluginsync --hiera_config /vagrant/deploy/hiera.yaml"], :module_path => "deploy/modules" do |puppet|
+    lb1.vm.provision :puppet, :options => ["--pluginsync"], :module_path => "deploy/modules" do |puppet|
       puppet.manifests_path = "deploy"
       puppet.manifest_file = "site.pp"
     end
