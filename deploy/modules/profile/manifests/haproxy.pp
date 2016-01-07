@@ -3,7 +3,7 @@
 # Configures a static implementation of HAProxy; an implementation that requires
 # the details of each Apache web server be known in advance. 
 class profile::haproxy ( 
-  $haproxy_port = hiera('haproxy_port') 
+  $haproxy_port = '7267'
 ){
   class { 'haproxy': }
   

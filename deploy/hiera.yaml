@@ -4,5 +4,5 @@
 :backends:
   - yaml
 :yaml:
-  :datadir: "%{settings/manifestdir}/hieradata"
+  :datadir: '/etc/puppet/hieradata'
 
