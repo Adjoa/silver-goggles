@@ -17,7 +17,8 @@ class profile::apache_vhost (
 
   # HAProxy will regularly check on the server's health by requesting the file check.txt
   file { "${::apache::params::docroot}/check.txt":
-     ensure => present,
+     ensure  => present,
+     require => Class['apache'] 
   }
 
   # Configures a name-based virtual host with the hostname first.example.com and,
